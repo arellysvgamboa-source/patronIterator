@@ -1,4 +1,10 @@
 package iterator;
 
-public class IteratorPago {
+import modelo.Pago;
+
+public interface IteratorPago {
+
+    boolean hasNext();
+
+    Pago next();
 }
